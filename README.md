@@ -1,70 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Features
 
-In the project directory, you can run:
+- **Display Products**: Show a list of products available for purchase, including their names, prices, and images.
 
-### `npm start`
+- **Add to Cart**: Allow users to add products to their shopping cart. This can be done by clicking an "Add to Cart" button or similar interaction.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Update Quantity**: Provide the ability for users to adjust the quantity of each item in their cart, such as increasing or decreasing the quantity.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Remove from Cart**: Allow users to remove items from their cart entirely, either through a "Remove" button or an option to set the quantity to zero.
 
-### `npm test`
+- **Calculate Subtotal**: Calculate and display the subtotal price of each item in the cart, taking into account the quantity selected for each item.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Apply Discounts or Coupons**: Implement the functionality to apply discounts or coupons to the cart, if applicable, and display the updated total price.
 
-### `npm run build`
+- **Persist Cart State**: Store the cart state in local storage or a backend database so that the cart items persist across page reloads or user sessions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Checkout Process**: Provide a checkout process that includes collecting user information (e.g., shipping address, payment details), validating inputs, and processing the order.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Error Handling**: Implement error handling for scenarios like out-of-stock items, invalid inputs, or failed API requests.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Responsive Design**: Ensure that your shopping cart application is responsive and works well on different screen sizes and devices.
 
-### `npm run eject`
+- **User Feedback**: Provide feedback to the user, such as success messages after adding items to the cart or error messages when something goes wrong.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Cart Summary**: Display a summary of the cart contents, including the total price, number of items, and any applied discounts.
+- **Product Search**: Implement a search functionality that allows users to search for specific products by name or category, making it easier for them to find desired items.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Sort and Filter**: Provide options to sort the product list based on price, popularity, or other criteria. Additionally, allow users to filter products based on attributes like size, color, or brand.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Guest and User Accounts**: Allow users to either shop as guests or create user accounts. User accounts can offer benefits like order history, saved addresses, and personalized recommendations.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Wishlist**: Implement a wishlist feature that allows users to save products they are interested in for future reference or purchase.
 
-## Learn More
+- **Product Reviews and Ratings**: Enable users to leave reviews and ratings for products, providing social proof and helping other shoppers make informed decisions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Multiple Shipping Addresses**: Allow users to save and manage multiple shipping addresses, making it convenient for them to select the desired address during checkout.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Multiple Payment Options**: Provide support for multiple payment methods, such as credit cards, PayPal, or other popular payment gateways.
 
-### Code Splitting
+- **Order Tracking**: Allow users to track the status of their orders, providing updates on shipping, delivery, and estimated arrival times.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Social Sharing**: Integrate social media sharing buttons that enable users to share products they like on platforms like Facebook, Twitter, or Instagram.
 
-### Analyzing the Bundle Size
+- **Recommended Products**: Implement a recommendation engine that suggests related or complementary products based on the user's browsing and purchase history.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Inventory Management**: Include features for inventory management, such as tracking product stock levels, displaying "out of stock" notifications, and preventing users from adding unavailable items to the cart.
 
-### Making a Progressive Web App
+- **Responsive Notifications**: Provide real-time notifications to users, such as alerts for price drops, restocked items, or limited-time promotions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
